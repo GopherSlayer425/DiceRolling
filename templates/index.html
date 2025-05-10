@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Define character encoding and page title -->
     <meta charset="UTF-8">
     <title>Dice Stats App</title>
+
+    <!-- Link to external CSS file for styling (optional) -->
     <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+    <!-- Page heading -->
     <h1>Roll the Dice</h1>
+
+    <!-- Button that will trigger the dice roll -->
     <button id="rollBtn">Roll</button>
+
+    <!-- Empty div to display the roll result -->
     <div id="result"></div>
 
+    <!-- JavaScript for handling button click and updating result -->
     <script>
+        // When the "Roll" button is clicked:
         document.getElementById('rollBtn').onclick = async () => {
+            // Send an HTTP GET request to the '/roll' route
             const res = await fetch('/roll');
+
+            // Parse the JSON response
             const data = await res.json();
+
+            // Display the result in the 'result' div
             document.getElementById('result').innerText = `🎲 You rolled a ${data.roll_value}!`;
         };
     </script>
