@@ -41,6 +41,26 @@ dice_stats_app/
 └── requirements.txt      # Python dependencies
 ```
 
+## Copyright Information
+
+Copyright [2025] [Christopher Barnett]
+
+This code is provided for educational and non-commercial use only. You are welcome to read, learn from, and adapt this code for personal or classroom projects.
+
+You may not use this code, in whole or in part, for any commercial purpose without my explicit written permission.
+
+If you wish to contribute improvements or fixes, please open a pull request or contact me directly. By contributing, you agree that your contributions will also be shared under these same terms.
+
+For any questions or requests for commercial use, please contact: [barnettcp@gmail.com]
+
+## Contributor License Agreement
+By submitting a contribution (e.g., via a pull request), you agree that your contribution will be licensed under the same terms as the main project: for educational and non-commercial use only, unless otherwise specified.
+
+You retain copyright to your contribution, but you grant Christopher Barnett and all users of this project the right to use, modify, and distribute your contribution under these terms.
+
+Please note: This project may receive donations or other support to help cover costs and development time. By contributing, you acknowledge and agree that donations may benefit the project owner and do not entitle contributors to compensation.
+
+
 ## Setup Instructions
 
 1. **Clone the Repository**
